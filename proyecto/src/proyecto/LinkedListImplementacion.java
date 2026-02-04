@@ -1,5 +1,5 @@
 package proyecto;
-
+//clase de ayuda para la clase de linkedlist
 class Nodo {
 	int valor;
 	Nodo siguiente;
