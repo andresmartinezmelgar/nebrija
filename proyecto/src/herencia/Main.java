@@ -3,7 +3,7 @@ package herencia;
 
 public class Main {
 	public static void main(String[] args) {
-		Coche c = new Coche(4, 4, "Skoda", 4, 4, 280);
+		Coche c = new Coche(5, 4, "Skoda", 4, 4, 280);
 		CocheElectrico ce = new CocheElectrico(4, 4, "Skoda", 4, 4, 280, 420.2);
 	
 
