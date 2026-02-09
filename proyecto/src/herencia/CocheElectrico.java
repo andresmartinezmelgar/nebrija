@@ -14,7 +14,7 @@ public class CocheElectrico extends Coche {
 	public void mostrarInfo() {
 		super.mostrarInfo();
 		System.out.println("\tInfo particular del coche eléctrico\n"
-				+ "\t\t Voltaje: "+this.voltaje);
+				+ "\t\t  Voltaje: "+this.voltaje);
 	}
 	
 	public void sumarPuertasYVentanas() {
