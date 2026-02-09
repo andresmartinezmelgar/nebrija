@@ -3,6 +3,8 @@ package herencia;
 public class CocheElectrico extends Coche {
 	public double voltaje;
 	public String creador;
+	public double potenciaCarga;
+
 	public CocheElectrico(int numRuedas, int numPuertas, String modelo, int numVentanas, int numAsientos,
 			int velocidadMax, double voltaje) {
 
