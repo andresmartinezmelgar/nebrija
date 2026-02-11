@@ -7,7 +7,7 @@ public class Coche {
 	protected int numVentanas;
 	protected int numAsientos;
 	protected int velocidadMax;
-	
+	//COMENTARIO SUPER IMPORTANTE
 	public Coche(int numRuedas, int numPuertas,
 			String modelo, int numVentanas,
 			int numAsientos, int velocidadMax) {
