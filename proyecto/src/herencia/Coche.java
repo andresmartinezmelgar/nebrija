@@ -7,8 +7,12 @@ public class Coche {
 	protected int numVentanas;
 	protected int numAsientos;
 	protected int velocidadMax;
+	//ehfbosdfbsod (andres)
 
-	public Coche(int numRuedas, int numPuertas, String modelo, int numVentanas, int numAsientos, int velocidadMax) {
+	//COMENTARIO SUPER IMPORTANTE(hecho por fabio)
+	public Coche(int numRuedas, int numPuertas,
+			String modelo, int numVentanas,
+			int numAsientos, int velocidadMax) {
 		this.numRuedas = numRuedas;
 		this.numPuertas = numPuertas;
 		this.modelo = modelo;
