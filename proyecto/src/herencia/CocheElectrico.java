@@ -1,7 +1,7 @@
 package herencia;
 
-//fabio inutil
-// house tour
+//otro comentario
+//habia otras cosas feas
 public class CocheElectrico extends Coche {
 	public double voltaje;
 	public String creador;
