@@ -1,6 +1,6 @@
 package herencia;
 
-public class Coche {
+public abstract class Coche {
 	protected int numRuedas;
 	protected int numPuertas;
 	protected String modelo;
@@ -21,13 +21,26 @@ public class Coche {
 		this.velocidadMax = velocidadMax;
 	}
 
-	public void arrancar() {
-		System.out.println("Brum brum!");
-	}
+	
 
 	public void mostrarInfo() {
 		System.out.println("Info general del coche\n" + "\tNumRuedas:" + this.numRuedas + "\n" + "\tnumPuertas:"
 				+ this.numPuertas + "\n" + "\tmodelo:" + this.modelo + "\n" + "\tnumVentanas:" + this.numVentanas + "\n"
 				+ "\tnumAsientos:" + this.numAsientos + "\n" + "\tvelocidadMax:" + this.velocidadMax + "");
 	}
+	
+	
+	public abstract void arrancar(int i);
 }
+
+
+
+
+
+
+
+
+
+
+
+
