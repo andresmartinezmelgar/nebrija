@@ -1,5 +1,5 @@
 package herencia;
-
+//otro comentario
 public class CocheElectrico extends Coche {
 	public double voltaje;
 	public String creador;
