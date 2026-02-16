@@ -24,6 +24,21 @@ public class CocheElectrico extends Coche {
 		System.out.println(numPuertas+numVentanas);
 	}
 
+	@Override
+	public void arrancar(int i) {
+		System.out.println("Pulso btn y suena un zumbido");
+		
+	}
+	
+	public String toString() {
+		return "asd";
+	}
+	
+	public boolean equals(Object obj) {
+        return (this.modelo==obj.toString());
+    }
+
+
 }
 
 
