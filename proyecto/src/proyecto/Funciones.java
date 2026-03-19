@@ -7,7 +7,7 @@ import java.util.List;
 
 public class Funciones {
 	public static void main(String[] args) {
-
+//asdasdasdasd
 	}
 
 	public static boolean ejercicio1(int edad, int numIntentos, boolean vetado) {
