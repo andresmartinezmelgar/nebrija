@@ -13,29 +13,6 @@ class AStarMetro {
 		List<Estacion> cerrados = new ArrayList<>();
 		// Mapa para encontrar rápidamente el nodo asociado a cada estación
 		HashMap<Estacion, NodoRuta> nodos = new HashMap<>();
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		// Crea el nodo auxiliar del origen
 		NodoRuta nodoOrigen = new NodoRuta(origen);
 		// El coste desde el origen hasta sí mismo es 0
